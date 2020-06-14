@@ -1,0 +1,45 @@
+.he{
+    height: 500px;
+}
+.hes{
+    font-size: 20px;
+}
+.cad{
+    margin-top: 80px;
+}
+.im{
+    border-radius: 400px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.marg{
+    margin-top: 100px;
+}
+
+.cl{
+
+    width: 80%;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #505050;
+}
+
+.bac{
+    background-color:#E8E8E8;
+    height: 100px;
+    margin-top: 80px;
+}
+
+.resize{
+    width: 29px;
+    height: 29px;
+}

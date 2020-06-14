@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   		 	
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="price.css">
+    </head>
+    </head>
+    <body onLoad="show()">
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light hes shadow-lg">
+            <a class="navbar-brand" href="#">Smita's Bakery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">Find more</a>
+                <a class="nav-item nav-link" href="price.html">Pricing</a>
+                <a class="nav-item nav-link" href="contact.html">contact</a>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+          <div class="d-flex justify-content-center mt-5 text-info font-weight-bold " >
+            <h2><u>Find Out The Price</u></h2>
+          </div>
+          
+          <div class="d-flex justify-content-center text-success mt-5" >
+
+            <select id="unit" onchange="show()"  class="myinput">
+              <option>Chocolate</option>
+              <option>Any Other Flavour</option>
+              
+          </select>
+          </div>
+        
+
+          <div class="d-flex justify-content-center mt-5" >
+
+            
+            <div>
+                <span class="font-weight-bold">Enter the weight</span>
+                <input type="number" name="" id="input_from" onchange="show()">
+                <select id="unit_type" onchange="show()"  class="myinput">
+                    <option>Pounds</option>
+                    <option>Kilograms</option>
+                    <option>Grams</option>
+                    <option>Metric tonnes</option>
+                    <option>Short ton</option>
+                    <option>Long ton</option>
+                    <option>Ounces</option>
+                </select>
+               
+            
+            </div>
+        </div>
+        <div class="d-flex justify-content-center text-success mt-5" >
+            <h1 id="result"></h1>
+          </div>
+
+          <div class="d-flex justify-content-center text-info mk" >
+            <h3 id="">**Price may increase if extra decoration is required</h3>
+          </div>
+        
+            
+
+          <script src="price.js"></script>
+          <script src="jquery.js"></script>
+          <script src="bootstrap.js"></script>
+      </body>
+  </html>
